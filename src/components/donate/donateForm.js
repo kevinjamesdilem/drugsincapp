@@ -1,53 +1,74 @@
 import React from 'react';
+import { Link } from 'react-router';
 import TextInput from './../commons/TextInput';
 import SelectInput from './../commons/SelectInput';
 import TextArea from './../commons/TextArea';
 
 
-const RequestForm = ({ request, allBloods, onChange, onSave, loading, staticLists, errors }) => {
-  return (
-    <form className="container">
-      <h2>Request form</h2>
+class donateForm extends React.Component {
+  
+  render() {
+    return (
+      <div className='donateForm'>
+        <div className = "container">
+        <h1>Donate Now!</h1>
+          <div className = "row">
+            <div className = "col-md-4">
+              <TextInput
+                name="title"
+                label="First Name"
+              /> 
+            </div>
+        
+            <div className = "col-md-4">
+              <TextInput
+                name="title"
+                label="Last Name"
+              />
+            </div>
 
-      <TextInput
-        name="title"
-        label="Requester"
-        value={request.title}
-        onChange={onChange}
-        error={errors.title}
-      />
+            <div className = "col-md-4">
+              <TextInput
+                name="title"
+                label="Contact Number"
+              />
+            </div>
+          </div>
 
-      <SelectInput
-        name="bloodId"
-        label="Blood Type"
-        value={request.bloodId}
-        defaultOption="Select Bloodtype"
-        options={allBloods}
-        onChange={onChange}
-        error={errors.bloodId}
-      />
+          <div className = "row">
+            <div className = "col-md-6">
+              <TextInput
+                name="title"
+                label="Address"
+              /> 
+            </div>
+        
+            <div className = "col-md-6">
+              <TextInput
+                name="title"
+                label="Email Address"
+              /> 
+            </div>
+          </div>
 
-      <TextArea
-        name="description"
-        label="Description"
-        rows={6}
-        value={request.description}
-        onChange={onChange}
-        error={errors.description}
-      />
+          <div className = "row">
+            <div className = "col-md-12">
+              <TextArea
+                name="description"
+                label="Details of Donation"
+                rows={10}
+              />
+            </div>
+          </div>
 
-      <TextInput
-        name="location"
-        label="Location"
-        rows={6}
-        value={request.location}
-        onChange={onChange}
-        error={errors.location}
-      />
+          <input type="submit" className="btn btn-primary" value="Send" />
+        </div>
+      </div>
+    )
+  }
 
-      <input type="submit" className="btn btn-primary" value="Post Request" onClick={onSave}/>
-    </form>
-  )
 }
 
-export default RequestForm;
+
+
+export default donateForm;

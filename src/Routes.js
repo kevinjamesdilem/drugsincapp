@@ -6,6 +6,7 @@ import HomePage from './components/home/HomePage.js'
 import AboutPage from './components/about/AboutPage.js'
 import RequestsPage from './components/request/RequestsPage.js'
 import ManageRequestPage from './components/request/ManageRequestPage.js'
+import donateForm from './components/donate/donateForm.js'
 
 export default (
   <Route path='/' component={App}>
@@ -14,5 +15,6 @@ export default (
     <Route path = 'requests' component={RequestsPage} />
     <Route path = 'request' component={ManageRequestPage} />
     <Route path = 'request/:id' component={ManageRequestPage} />
+    <Route path = 'donate' component={donateForm} />
   </Route>
 )

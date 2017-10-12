@@ -6,11 +6,27 @@
   margin-right: 10px;
 }
 
+#root {
+  
+}
+
+.conbebeh {
+  background-color: #eee;
+}
+
+.img {
+  
+}
+
 textarea {
   width: 100%;
 }
 
-.homePage {
+body {
+  background: url("../img/meds2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .aboutPage {

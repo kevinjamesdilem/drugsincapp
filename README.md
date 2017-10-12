@@ -1,55 +1,93 @@
-# Blood Donation App
+# Drugs Inc. v1.0.0
 
-This app allows users to help meet the constant need for blood. 
+<p align="center">
+	<img src="img/drugsinc.png">
+</p>
 
 ## Table of Contents
 
-- [Team](#la-luna-sangre)
-- [Plan](#plan)
+- [Team](#team)
+- [Purpose](#purpose)
+- [Problem](#problem)
 - [User Stories](#user-stories)
 - [Wireframe](#wireframe)
-- [Entity Relationship Diagram](#erd)
-- [App Name](#app-name)
-- [Tools and Methodologies](#tools--and-methodologies)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
+- [Demo](#demo)
+- [Future Improvements](#future-improvements)
 
 
-### La Luna Sangre
-La Luna Sangre means is a spanish term means "The Blood Moon". God has often used "the heavens" for sending signs to mankind. In Genesis, God says there should be lights in heaven and says of those lights: "Let them be for signs." 
+### Team
 
-| Coder | Portfolio |
-| --- | --- |
-| [ncleshyne](https://github.com/ncleshyne) | ncleshyne.github.io |
-| [silveredbullet](https://github.com/silveredbullet) | silveredbullet.github.io |
-| [grailwilly](https://github.com/grailwilly) | silveredbullet.github.io |
+Kevin James Dilem | [kevinjamesdilem](https://github.com/kevinjamesdilem) | [kevinjd.github.io](https://kevinjd.github.io/) |
+Chester Daniel Farinas | [chester](https://github.com/kevinjamesdilem) | [kevinjd.github.io] |
 
-### Plan
 
-- Purpose
+### Purpose
+ We created an App that helps the constituents of each district acquire medicines at health centers and informs them when a certain medicine is available.
 
-The app aims to help make it easier to find voluteers to donate blood to strangers who desperately need blood.
+### Problem
 
- - Problem
+The problem affects mostly are the elderly or the disabled constituents that have a hard time getting medicine required because, some people simply can't afford the medicine or they are unable to get to their health centers because of certain ailments.
+    
+### User Stories
 
-Infographics
-https://i.pinimg.com/564x/a0/99/f8/a099f8f5bd13562bf4be5885f0cb2ee6.jpg
-http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg
+![trello](img/trello.png)
 
-Know More:
-
-https://i.pinimg.com/564x/48/d5/9d/48d59dc478fad4c24dabcf5cb8a9cd59.jpg
-https://i.pinimg.com/564x/ff/2f/f6/ff2ff6591d6197eafd0ab8cc8e313d78.jpg
-
- - Solution
- 
-### User Stories 
 
 ### Wireframe
 
-### ERD
+[WireFrame](https://drive.google.com/open?id=0B7dqpd2EKN6_emlUVHVWeEhSaGM)
 
-### App Name
+### Entity Relationship Diagram
+[ERD](https://drive.google.com/open?id=0B7dqpd2EKN6_bjk2OTdhSnVHQUk)
 
 ### Tools and Methodologies
+I. Building the App
+
+- [Github](https://github.com/kevinjamesdilem/drugsincapp)
+- [Trello](https://trello.com/b/5FZtJVdG/druglords-inc)
+- [Google Drive (WireFrame)](https://drive.google.com/open?id=0B7dqpd2EKN6_emlUVHVWeEhSaGM)
+- [Google Drive (ERD)](https://drive.google.com/open?id=0B7dqpd2EKN6_bjk2OTdhSnVHQUk)
+
+II. Communication
+
+- Slack <br/>
+![slack](img/slack.png)
 
 ### Usage
+
+Clone or Download Repo
+
+```
+https://github.com/kevinjamesdilem/drugsincapp.git
+```
+<br/>
+
+install dependencies
+
+```
+$ npm install
+```
+
+<br/>
+
+run server
+
+```
+$ npm start
+```
+
+Visit http://localhost:3000/
+
+### Demo
+
+Deployed in heroku. Visit 
+
+### Future Improvements(to be added)
+
+- Login Module(Functionality)
+- Registration Module(Functionality)
+- Request Module(Functionality)
+- Donate Module(Functionality)

@@ -5,12 +5,26 @@ import { Link } from 'react-router'
 class HomePage extends React.Component {
   render() {
     return (
+      
       <div className = "homePage container">
-        <div className = "jumbotron">
-          <div className = "container">
-            <h1>Welcome to Drugs Inc.</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <Link to='/' className='btn btn-lg btn-default'>Home »</Link>
+      <div className = "img">
+      </div>
+        <div className = "row">
+          <div className = "jumbotron">
+            <div className = "container">
+              <div className = "col-md-8">
+                <h1>Welcome to Drugs Inc.</h1>
+                <p>The world's first App for acquiring or donating medicines.
+              is more convinient and easier to use than before.</p>
+              </div>
+
+              <div className = "col-md-1 offset-md-1">
+              </div>
+
+              <div className = "col-md-3">
+                <img src = {require('./drugsinc.png')} width="70%" height="200px"/>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -18,20 +32,21 @@ class HomePage extends React.Component {
           <div className = "row">
             <div className = "col-md-4">
               <h2>About</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <Link to='about' className='btn btn-default'>About »</Link> 
+              <p>This App is about helping people acquire medicine easier and notifies them
+              when medicines are available to prevent the medicines from getting wasted.</p>
+              <Link to='about' className='buton btn btn-default'>About »</Link> 
             </div>
         
             <div className = "col-md-4">
               <h2>Donate</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <Link to='requests' className='btn btn-default'>Donate »</Link>
+              <p>We accept donations from sponsors.</p>
+              <Link to='requests' className='buton btn btn-default'>Donate »</Link>
             </div>
         
             <div className = "col-md-4">
               <h2>Request</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <Link to='/request' className='btn btn-default'>Request »</Link>
+              <p>Request medicines you need now to acquire them as soon as possible.</p>
+              <Link to='/request' className='buton btn btn-default'>Request »</Link>
             </div>
           </div>
         </div>
