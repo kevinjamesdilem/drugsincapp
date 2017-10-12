@@ -19,9 +19,9 @@
 
 
 ### Team
-
-Kevin James Dilem | [kevinjamesdilem](https://github.com/kevinjamesdilem) | [kevinjd.github.io](https://kevinjd.github.io/) |
-Chester Daniel Farinas | [chester](https://github.com/kevinjamesdilem) | [kevinjd.github.io] |
+|---|---|---|
+!Kevin James Dilem | [kevinjamesdilem](https://github.com/kevinjamesdilem) | [kevinjd.github.io](https://kevinjd.github.io/) |
+!Chester Daniel Farinas | [chester](https://github.com/kevinjamesdilem) | [kevinjd.github.io](https://kevinjd.github.io/) |
 
 
 ### Purpose
