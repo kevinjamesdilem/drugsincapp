@@ -81,11 +81,7 @@ run server
 $ npm start
 ```
 
-Visit http://localhost:3000/
-
-### Demo
-
-Deployed in heroku. Visit 
+Visit http://localhost:3000/ 
 
 ### Future Improvements(to be added)
 
