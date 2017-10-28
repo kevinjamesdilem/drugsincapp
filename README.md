@@ -16,6 +16,7 @@
 - [Usage](#usage)
 - [Demo](#demo)
 - [Future Improvements](#future-improvements)
+- [Resources](#Resources)
 
 
 ### Team
@@ -89,3 +90,10 @@ Visit http://localhost:3000/
 - Registration Module(Functionality)
 - Request Module(Functionality)
 - Donate Module(Functionality)
+
+### Resources
+- http://www.moneymonster.ph/news-and-tips/cost-medical-care-philippines/
+- http://myphilippinelife.com/prescription-drugs-medications-philippines/
+- http://www.impactmagazine.net/v40n04/who_cares.htm
+- https://www.oxfordbusinessgroup.com/analysis/philippines-government-works-reduce-cost-medicine
+- https://fairtradeweb.wordpress.com/2006/11/21/are-filipinos-dying-because-of-expensive-medicines/
